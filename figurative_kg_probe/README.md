@@ -17,9 +17,9 @@ A research codebase that investigates **at which transformer layer** a model tra
 ```
 Raw Datasets          KG Construction         Probing              Analysis
 ─────────────         ───────────────         ───────              ────────
-MAGPIE (idioms)  ──►  ConceptNet edges   ──►  BERT hidden   ──►   FCD vs T*
-VUA (metaphors)  ──►  WordNet synsets    ──►  states per    ──►   correlation
-SemEval (sarc.)  ──►  FCD computation   ──►  layer probe   ──►   curves +
+MAGPIE (idioms)  ──->  ConceptNet edges   ──->  BERT hidden   ──->   FCD vs T*
+VUA (metaphors)  ──->  WordNet synsets    ──->  states per    ──->   correlation
+SemEval (sarc.)  ─-> FCD computation   ->  layer probe   ──-->   curves +
                        KG serialization       accuracy            plots
 ```
 
@@ -111,9 +111,9 @@ figurative_kg_probe/
 If you use this codebase, please cite:
 
 ```bibtex
-@misc{figurative_kg_probe_2025,
+@misc{figurative_kg_probe_2026,
   title   = {How Deep is Figurative? KG Distance as a Probe for Non-Literal Understanding},
-  year    = {2025},
-  note    = {Independent Research, inspired by Muresan (Columbia NLP)}
+  year    = {2026},
+  note    = {Independent Research}
 }
 ```
